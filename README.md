@@ -4,7 +4,7 @@ Advanced Persistent Threats (APTs) present a considerable challenge to cybersecu
 
 
 # Architecture 
-![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/Architecture_FLAGUS3.pdf "General Architecture")
+![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/archiflagus.png "General Architecture")
 
 
 # FLAGUS APT-AutoEncoders 
