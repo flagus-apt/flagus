@@ -149,21 +149,39 @@ Then using the check.py script and the ground truth database (./sample/cadets_pa
 ```python3 check.py -i  ./sample/ScoreProcessEvent.csv -o OutputProcessEvent.csv -g ./sample/cadets_pandex_merged.csv -t AdmSubject::Node```
 
 # Some results 
+## AutoEncoders Reconstruction Error
+
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/Figure_ReconstructionError.png "AutoEncoders Reconstruction Error")
+
+## Active Learning BSD Pandex
 
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_BSD_Pandex.png "Active Learning BSD Pandex")
 
+## Active Learning BSD Bovia
+
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_BSD_Bovia.png "Active Learning BSD Bovia")
+
+## Active Learning Windows Pandex
 
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Windows_Pandex.png "Active Learning Windows Pandex")
 
+## Active Learning Windows Bovia
+
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Windows_Bovia.png "Active Learning Windows Bovia")
+
+## Active Learning Linux Pandex
 
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Linux_Pandex.png "Active Learning Linux Pandex")
 
+## Active Learning Linux Bovia
+
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Linux_Bovia.png "Active Learning Linux Bovia")
 
+## Active Learning Android Pandex
+
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Android_Pandex.png "Active Learning Android Pandex")
+
+## Active Learning Android Bovia
 
 ![Alt text](https://github.com/flagus-apt/flagus/blob/main/figures/AL_Android_Bovia.png "Active Learning Android Bovia")
 
