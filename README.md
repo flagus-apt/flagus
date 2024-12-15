@@ -135,6 +135,17 @@ for AVF (small score = more anomalous).
 
 
 
+### APT-GAN (Adversarial Generative Neural Networks) anomaly detection
+
+Here we are going to use a GAN to train a neural network for generating fake APT data, then use the generated data to test a given anomaly detection method.
+The script APT-GAN/skynet.py trains a GAN using a formal context, thun runs a rule-mining anomaly detection method.
+The script's options are as follows.
+
+```GAN.py  -i ./sample/ProcessEvent.cs -g ./sample/cadets_pandex_merged.csv -t 1000```
+
+The results are generated in APT-GAN/output folder, and show the variation of the ndcg scores with the simulated data.
+
+
 ## Running example
 
 Let's run the AVF anomaly detector on the ProcessEvent context (BSD, 1st attack scenario) available in the sample folder (the original file can be downloaded from the data repository at https://gitlab.com/adaptdata/e2/blob/master/pandex/cadets/ProcessEvent.csv.gz).
